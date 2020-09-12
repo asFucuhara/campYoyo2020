@@ -97,6 +97,10 @@ nav {
   text-transform: uppercase;
 }
 
+.selfAnchor {
+  cursor: pointer;
+}
+
 .burger {
   display: none;
   display: block;
@@ -239,6 +243,10 @@ main .card p {
   font-size: 14px;
 }
 
+main .card .marginTop {
+  margin-top: 20px !important;
+}
+
 main .card .cardText {
   width: auto;
   margin: 30px 40px 0 40px;
@@ -246,9 +254,13 @@ main .card .cardText {
 
 main .card .cardText .cardTitle {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   margin-left: 0;
-  margin-bottom: 20px;
+}
+
+main .card .cardText .cardComplement {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 main .card .cardText .redHighlight {
@@ -289,6 +301,7 @@ main .card .map .address {
 }
 
 main .map-responsive {
+  margin-top: 10px;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
@@ -350,7 +363,7 @@ footer .footerTitle {
   }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 950px) {
   #banner {
     flex-direction: row;
   }
@@ -388,8 +401,11 @@ footer .footerTitle {
   }
 
   main .card img {
-    width: 25vw;
+    width: 12vw;
+    min-width: 160px;
     height: auto;
+    margin-right: 60px;
+    margin-left: 60px;
   }
 
   main .card p {
