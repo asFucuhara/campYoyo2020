@@ -188,6 +188,7 @@ nav {
 .arrow {
   position: absolute;
   bottom: 30px;
+  left: calc(50% - 20px);
   animation-name: arrowBobbing;
   animation-duration: 5s;
   animation-iteration-count: infinite;
