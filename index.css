@@ -185,6 +185,14 @@ nav {
   max-width: 500px;
 }
 
+.inscreve a {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  background-color: #e8175d;
+  text-decoration: none;
+}
+
 .arrow {
   position: absolute;
   bottom: 30px;
